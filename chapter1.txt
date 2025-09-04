@@ -7,3 +7,8 @@ to check the commit type ""git log""
 once done if the file content gets altered 
 can do one thing that is "git diff {filename}" to see what changes
 if want to go back use the command "git checkout {filename}"
+
+in case of gitigore just go to the file and mention the file as usual which u want to be ignored
+before that remove all of them from commit stage by the use of command "git rm -r --cached {filename}"
+it will remove from the staging area
+once done then add all of them by the "git add ." and do the commit command.
