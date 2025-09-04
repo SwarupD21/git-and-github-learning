@@ -4,3 +4,6 @@ stage the file using " git add "filename" "
 to commit use the command " git commit -m "message" " to add a message
 the message should be in present tense by convention
 to check the commit type ""git log""
+once done if the file content gets altered 
+can do one thing that is "git diff {filename}" to see what changes
+if want to go back use the command "git checkout {filename}"
