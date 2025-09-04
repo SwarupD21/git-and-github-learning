@@ -1,0 +1,6 @@
+first initialize git init 
+then check the git status
+stage the file using " git add "filename" "
+to commit use the command " git commit -m "message" " to add a message
+the message should be in present tense by convention
+to check the commit type ""git log""
