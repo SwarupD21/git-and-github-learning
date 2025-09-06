@@ -12,3 +12,5 @@ in case of gitigore just go to the file and mention the file as usual which u wa
 before that remove all of them from commit stage by the use of command "git rm -r --cached {filename}"
 it will remove from the staging area
 once done then add all of them by the "git add ." and do the commit command.
+
+git push origin main is used to push the git repo to local repo
