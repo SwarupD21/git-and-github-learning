@@ -21,3 +21,8 @@ we have a main branch which is final one
 so to change something better way is to create another branch and make the respective change in the code and
 finally merge it to the the main branch
 for branching use the command "git branch {name}"
+
+"git checkout {new branch name}" is used to switch branch
+go back to main branch and then "git merge {branch}"
+close the editor file and as a result it gets merged
+
