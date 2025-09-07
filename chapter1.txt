@@ -13,7 +13,8 @@ before that remove all of them from commit stage by the use of command "git rm -
 it will remove from the staging area
 once done then add all of them by the "git add ." and do the commit command.
 
-git push origin main is used to push the git repo to local repo
+to access the working repo we need the command "git remote add origin {url of repo}"
+"git push -u origin main" is used to push the local repo to working repo
 for cloning do "git clone {url of github}"
 
 now for learning branching and merging we need to understand it very clearly
@@ -26,3 +27,9 @@ for branching use the command "git branch {name}"
 go back to main branch and then "git merge {branch}"
 close the editor file and as a result it gets merged
 
+
+Forking:
+first of all copy the remote repo to your remote repo by clicking on the fork req.
+then do the necessary modification in your local repo by cloning and push to the remote repo and do the changes
+then send for pull request with a suitable message of modification
+now the main owner will accept the pull request and it is shown in the main repo.
